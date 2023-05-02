@@ -1,11 +1,16 @@
 package src;
 
-public class Start {
-    public static void main(String[] args) {
+import java.io.IOException;
+import java.util.Scanner;
 
-        int num1 = 1;
-        int num2 = 5;
-        int result = num1 + num2;
-        System.out.println(result);
+public class Start {
+    public static void main(String[] args) throws IOException {
+        int i;
+        for (i = 0; (char) System.in.read() != 'S'; i++) {
+            System.out.println("Iteration" + i);
+
+        }
+
     }
 }
+
